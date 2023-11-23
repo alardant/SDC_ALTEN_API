@@ -168,7 +168,7 @@ namespace SDC_ALTEN_API.Controllers
 
         private Product GetProductById(List<Product> productList, int id)
         {
-            return productList.FirstOrDefault(i => i.Id == id);
+            return productList.FirstOrDefault(i => i.id == id);
         }
 
         private void UpdateJsonFile(List<Product> products)
